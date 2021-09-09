@@ -15,7 +15,7 @@ public class GlobalPipe {
     public static void main(String[] args) throws Exception {
 
         if(args.length!=5){
-            System.out.println("You should specify some parameters: 1: hdfs input, 2: output, 3:temp");
+            System.out.println("You should specify some parameters: 1: hdfs input, 2: output, 3:temp, 4: number of mapper, 5:number of reducer");
             System.exit(1);
         }
         System.out.println("start");
